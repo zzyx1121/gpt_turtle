@@ -1,0 +1,2 @@
+gpt
+-DCATKIN_DEVEL_PREFIX=/home/zyx/gpt_robot/devel -DCMAKE_INSTALL_PREFIX=/home/zyx/gpt_robot/install -G Unix Makefiles

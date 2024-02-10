@@ -1,0 +1,8 @@
+<launch>
+
+    <node  pkg="gpt" type="gpt_node.py"  name="chatgpt_node" output="screen"/>
+    <rosparam file="$(find gpt)/config/promt.yaml" command="load" />
+    
+    <node  pkg="turtlesim" type="turtlesim_node" name="turtle_GUI"/>
+
+</launch>

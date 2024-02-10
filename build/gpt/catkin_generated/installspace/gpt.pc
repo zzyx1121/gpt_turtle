@@ -1,0 +1,8 @@
+prefix=/home/zyx/gpt_robot/install
+
+Name: gpt
+Description: Description of gpt
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
